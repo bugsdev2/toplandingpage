@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: roboto;
+	box-sizing: border-box;
+	margin:0;
+	
+}
+
+.container {
+	
+	display:flex;
+	flex-flow: column;
+	justify-content: space-between;
+/*
+	border: 2px solid red;
+*/
+}
+
+header ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	display:flex;
+	gap: 2rem;
+	
+}
+
+header a {
+	text-decoration: none;
+	
+}
+
+header {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	display: flex;
+	justify-content: space-between;
+	padding:2rem 10rem;
+	background: #1f2937;
+	background: rgba(0,0,0, 0.50);
+	color: white;
+/*
+	border: 2px solid red;
+*/
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.sec1 {
+	background-image:url("../image/genshin-impact3.jpg");   
+	background-position: 0rem -3rem; 
+	background-attachment: fixed;
+	min-height: 100px; 
+	background-size: cover;
+	background-color: #1f2937;
+	padding: 22rem 10rem;
+	padding-bottom: 5rem;
+	color: white;
+	display: flex;
+	flex-flow:column;
+}
+
+.sec1 h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9f8f8;
+	align-self: right;
+	text-align:right;
+}
+
+.sec1 p,
+header a {
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.but-signup {
+	background:none;
+	padding: 4px 10px;
+	border-radius: 10px;
+	color: white;
+	font-family: roboto;
+	border: none;
+	align-self:right;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sec2 {
+	padding: 5rem 10rem;
+}
+
+.sec2 h3 {
+	font-size: 36px;
+	font-weight: extra bold;
+	color: #1f2937;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.box-container {
+	display:flex;
+	gap: 6rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.boxes {
+	display: flex;
+	flex-flow:column;
+	align-items: center;
+	justify-content: space-between;
+	transition: transform 100ms;
+/*
+	flex: 1 1 auto;
+*/
+/*
+	border: 2px solid red;
+*/
+}
+
+.boxes:hover {
+	transform: scale(1.25);
+}
+
+.boxes img {
+	width: auto;
+	height: 200px;
+}
+
+.boxes p {
+	font-weight: bold;
+}
+
+.sec3 {
+	background: #e5e7eb;
+	padding: 5rem 10rem;
+	display:flex;
+	flex-flow:column;
+}
+
+.sec3 .quote-text {
+	font-size: 36px;
+	font-weight:light;
+	font-style: italic;
+	text-decoration: ;
+	color: #1F2937;
+	margin-bottom: 0.5rem;
+/*
+	border: 2px solid red;
+*/
+}
+
+.sec3 .quote-author {
+	align-self: flex-end;
+	font-weight: bold;
+	font-size: 24px;
+	color: #1F2937;
+}
+
+.sec4 {
+	padding: 5rem 10rem;
+}
+
+.sec4 .world {
+	margin:0 auto;
+	width:80%;
+	height: 100px;
+	background-image: url("../image/genshin-impact3.jpg");
+	color:white;
+	border-radius:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:22px;
+	font-weight: bold;
+	transition: transform 100ms;
+}
+
+.sec4 .world:hover {
+	transform: scale(1.2);
+}
+
+footer {
+	background: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
