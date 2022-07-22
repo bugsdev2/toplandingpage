@@ -71,7 +71,7 @@ header {
 	font-weight: bolder;
 	color: #f9f8f8;
 	align-self: center;
-	text-align:center;
+	text-align: center;
 }
 
 .sec1 p,
@@ -87,7 +87,7 @@ header a {
 	color: white;
 	font-family: roboto;
 	border: none;
-	align-self:left;
+	align-self:center;
 	font-size: 18px;
 	font-weight: bold;
 }
