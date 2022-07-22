@@ -70,8 +70,8 @@ header {
 	font-size: 48px;
 	font-weight: bolder;
 	color: #f9f8f8;
-	align-self: right;
-	text-align:right;
+	align-self: center;
+	text-align:center;
 }
 
 .sec1 p,
@@ -87,7 +87,7 @@ header a {
 	color: white;
 	font-family: roboto;
 	border: none;
-	align-self:right;
+	align-self:left;
 	font-size: 18px;
 	font-weight: bold;
 }
